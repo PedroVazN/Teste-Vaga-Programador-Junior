@@ -18,3 +18,22 @@ O objetivo deste desafio é entender o nível de conhecimento dos candidatos em 
  - Edite o .gitignore para incluir seu arquivo db.sqlite3 no projeto.
 
  Assim que estiver concluído, nos envie o link público do seu projeto no git(ou o zip, caso tenha dificuldades com o GIT) contendo, além do código, alguns prints da tela /polls/<id>/results/ mostrando os dados que foram incluidos nessa tela com as edições para o email desafio.dev@soirtec.com. (Não precisa editar o template, assim que os métodos estiverem funcionando, as informações irão aparecer na tela).
+
+## Implementação Realizada
+
+✅ Método `total_votes()` implementado - retorna o total de votos que a Questão possui
+✅ Método `has_votes()` implementado - retorna Verdadeiro caso a Questão possua respostas com votos ou Falso caso contrário
+✅ Arquivo `.gitignore` configurado com `db.sqlite3`
+
+## Capturas de Tela
+
+As seguintes capturas de tela mostram os resultados da implementação na página `/polls/<id>/results/`:
+
+### Exemplo 1
+![Exemplo 1](https://github.com/PedroVazN/Teste-Vaga-Programador-Junior/blob/main/exemplo1.png?raw=true)
+
+### Exemplo 2
+![Exemplo 2](https://github.com/PedroVazN/Teste-Vaga-Programador-Junior/blob/main/exemplo2.png?raw=true)
+
+### Exemplo 3
+![Exemplo 3](https://github.com/PedroVazN/Teste-Vaga-Programador-Junior/blob/main/exemplo3.png?raw=true)
