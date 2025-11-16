@@ -1,6 +1,5 @@
 <h1>{{ question.question_text }}
-    -
-    {% if question.has_votes %} Votos: {{ question.total_votes }}</strong></p>{% endif %}
+    {% if question.has_votes %} - Votos: {{ question.total_votes }}{% endif %}
 </h1>
 
 <ul>
